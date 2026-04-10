@@ -4,4 +4,3 @@ pinecone-client
 langchain
 flask
 python-dotenv
--e .
