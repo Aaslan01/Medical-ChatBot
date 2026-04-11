@@ -1,8 +1,8 @@
 #!/bin/sh
-'''exec' "/Users/alisher/Desktop/Medical Chat Bot /.mchatbot/bin/python3.11" "$0" "$@"
+'''exec' "/Users/alisher/Desktop/Medical Chat Bot /.mchatbot/bin/python" "$0" "$@"
 ' '''
 import sys
-from tqdm.cli import main
+from debugpy.server.cli import main
 if __name__ == '__main__':
     sys.argv[0] = sys.argv[0].removesuffix('.exe')
     sys.exit(main())

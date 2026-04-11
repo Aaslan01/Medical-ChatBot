@@ -1,6 +1,8 @@
+langchain>=0.1.0
+langchain-community
+langchain-text-splitters
 ctransformers
 sentence-transformers
 pinecone-client
-langchain
 flask
 python-dotenv
